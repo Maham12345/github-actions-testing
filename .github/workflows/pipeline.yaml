@@ -9,6 +9,12 @@ jobs:
 
       - name: print goodbye
         run: echo "GRAZIE CHOW"
+      
+      - name: print multi outputs in one step
+        run: |
+          echo "run this"
+          echo "run this as well"
+          
 
       
 
