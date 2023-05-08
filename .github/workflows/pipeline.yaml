@@ -1,6 +1,6 @@
 name: Creating first pipeline
 on: workflow_dispatch
-job:
+jobs:
   print-script:
     runs-on: ubuntu-latest
     steps:
@@ -9,7 +9,7 @@ job:
       
       - name: print goodbye
         run: echo "GRAZIE CHOW"
-        
+
       
 
 
