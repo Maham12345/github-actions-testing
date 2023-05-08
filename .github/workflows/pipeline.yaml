@@ -5,8 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print hello
-        run: echo "ELO THERE!"
-      
+        run: echo "ELO THERE MATE!"
+
       - name: print goodbye
         run: echo "GRAZIE CHOW"
 
